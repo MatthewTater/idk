@@ -1,3 +1,15 @@
 Chocoholics Anonymous - Organization desgined to help chocolate addicts by providing consultations and treatments from health care professionals in exchange for a montly fee.
+Provider - Health care provider for ChocAn members. Interacts with the ChocAn computer terminal to provide services to members.
 ChocAn Member Card - Contains the member's name and 9-digit member number. The card's magnetic strip allows terminals to extract the information on the card.
-ChocAn Computer Terminal - 
+ChocAn Computer Terminal - The system used by a provider in order to provide members health service and bill ChocAn.  
+ChocAn Data System Computer - Communicates with the ChocAn Computer Terminal with the purpose of confirming or denying a member number. Also used by ChocAn to produce weekly reports on both providers and members.
+ChocAn Data System Computer Operator - Has the ability to add, delete, and update both member and provide records.
+Provider Directory - Directory within the ChocAn terminal that is used by providers to look up six-digit service codes.
+ChocAn Data System Computer Main Accounting Procedure - Weekly process that generates various reports and information.
+ChocAn Data System Computer Verification Process - Displays validated if the member card number is valid, invalid number if the number is not in the system, or member suspended if fees are owed.
+ChocAn Computer Terminal Writing Record to Disk - The computer creates a record containing the current date and time, the date service was provided, the provider number, the member number, the service code, and optional comments.
+Look up Fee - The terminal has the ability to look up a member fee and display it.
+Provider Directory Request - A provider has the ability to obtain an alphabetically ordered list of service names and codes.
+Comment on Member Report - Providers can add special comments to member reports.
+Key in Service Provided Date - The provider must enter the service provided date into the system in case of failure.
+Powering On ChocAn Computer Terminal - Providers must enter their provider number to gain access to the terminal.
